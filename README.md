@@ -1,8 +1,8 @@
-#React TailwindCSS Custom Button
+# React TailwindCSS Custom Button
 
 This is a React app that demonstrates how to use Tailwind CSS for styling and includes a custom button component that can be used throughout the app. The project also includes automated tests for the custom button component using Playwright.
 
-##Installation :
+## Installation :
 To run this project locally, first clone the repository:
 
 ```
@@ -24,7 +24,7 @@ npm run dev
 
 The app should now be running at http://localhost:3000.
 
-##Testing
+## Testing
 
 This project includes automated tests for the custom button component, using Playwright. To run the tests, use the command:
 
