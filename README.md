@@ -14,14 +14,12 @@ Then install the dependencies:
 ```
 cd react-tailwindcss-custom-button
 npm install
-
 ```
 
 Finally, start the development server:
 
 ```
 npm run dev
-
 ```
 
 The app should now be running at http://localhost:3000.
@@ -32,7 +30,6 @@ This project includes automated tests for the custom button component, using Pla
 
 ```
 npm run test
-
 ```
 
 The tests will be run in the command line, and will test the functionality of the custom button component.
