@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54 54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background-color: var(--bg-blue-gradient);
+}
+
+.bg-black-gradient {
+  background-color: var(--bg-black-gradient);
+}
+
+.bg-black-gradient-2 {
+  background-color: var(--bg-black-gradient-2);
+}
+
+.bg-gray-gradient {
+  background-color: var(--bg-gray-gradient);
+}
+
+.bg-discount-gradient {
+  background-color: var(--bg-discount-gradient);
+}
+
+.box-shadow {
+  box-shadow: var(--box-shadow-card);
+}
+
+.sidebar {
+  animation: slide-top;
+}
+
+.feature-card:hover {
+  background-color: var(--bg-black-gradient);
+  box-shadow: var(--box-shadow-card);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background-color: transparent;
+}
+
+.feedback-card:hover {
+  background-color: var(--bg-black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}

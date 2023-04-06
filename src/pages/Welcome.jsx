@@ -1,0 +1,1 @@
+// "Used for creating pages or views in your application. Each file within the "pages" folder represents a unique page/view with its own URL."
